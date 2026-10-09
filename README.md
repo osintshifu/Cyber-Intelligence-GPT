@@ -1,434 +1,205 @@
 <a id="top"></a>
 
 <div align="center">
-  <h1>Cyber Intelligence GPT</h1>
-  <p>A custom GPT for OSINT, DFIR, cyber investigations, threat intelligence, OPSEC, privacy, AI security, and compliance.</p>
-  <p>
-    <a href="https://chatgpt.com/g/g-65xhTBjZu-cyber-intelligence-gpt"><img alt="Launch Cyber Intelligence GPT" src="https://img.shields.io/badge/launch-Cyber_Intelligence_GPT-10a37f?style=flat-square&logo=openai&logoColor=white"></a>
-    <img alt="OSINT" src="https://img.shields.io/badge/focus-OSINT-0969da?style=flat-square">
-    <img alt="DFIR" src="https://img.shields.io/badge/focus-DFIR-8250df?style=flat-square">
-    <img alt="Threat Intelligence" src="https://img.shields.io/badge/focus-Threat_Intelligence-d1242f?style=flat-square">
-    <img alt="Last update: 2026-08-14" src="https://img.shields.io/badge/last_update-2026--08--14-1f883d?style=flat-square">
-    <a href="https://github.com/oryon-osint/Cyber-Intelligence-GPT/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/oryon-osint/Cyber-Intelligence-GPT?style=flat-square"></a>
-    <a href="https://github.com/oryon-osint/Cyber-Intelligence-GPT/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/oryon-osint/Cyber-Intelligence-GPT?style=flat-square"></a>
-  </p>
-  <p><strong><a href="https://chatgpt.com/g/g-65xhTBjZu-cyber-intelligence-gpt">Launch Cyber Intelligence GPT</a></strong> · <a href="#capabilities">Capabilities</a> · <a href="#investigation-workflow">Workflow</a> · <a href="#workflow-shortcuts">Shortcuts</a> · <a href="#example-usage">Examples</a> · <a href="#methodology--standards">Methodology</a></p>
+
+<h1>Cyber Intelligence GPT</h1>
+<p><strong>FULL-SPECTRUM OSINT · CYBER INTELLIGENCE · DIGITAL FORENSICS</strong></p>
+<p>Deep reconnaissance. Verified evidence. Actionable intelligence.</p>
+
+[![Open in ChatGPT](https://img.shields.io/badge/Open_in-ChatGPT-10A37F?style=flat-square&logo=openai&logoColor=white)](https://chatgpt.com/g/g-65xhTBjZu-cyber-intelligence-gpt)
+![OSINT](https://img.shields.io/badge/focus-OSINT-0969da?style=flat-square)
+![DFIR](https://img.shields.io/badge/focus-DFIR-8250df?style=flat-square)
+![Threat Intelligence](https://img.shields.io/badge/focus-Threat_Intelligence-d1242f?style=flat-square)
+![Plugin coming soon](https://img.shields.io/badge/plugin-coming_soon-555555?style=flat-square)
+[![Stars](https://img.shields.io/github/stars/osintshifu/Cyber-Intelligence-GPT?style=flat-square)](https://github.com/osintshifu/Cyber-Intelligence-GPT/stargazers)
+[![Forks](https://img.shields.io/github/forks/osintshifu/Cyber-Intelligence-GPT?style=flat-square)](https://github.com/osintshifu/Cyber-Intelligence-GPT/forks)
+
+[Launch GPT](https://chatgpt.com/g/g-65xhTBjZu-cyber-intelligence-gpt) · [Plugin](#upcoming-plugin) · [Capabilities](#capabilities) · [Workflow](#intelligence-workflow) · [Reports](#intelligence-reports) · [Commands](#commands) · [Examples](#examples)
+
 </div>
 
-## About
-
-**Cyber Intelligence GPT** is a custom GPT designed to support the collection, verification, correlation, analysis, and reporting of information for lawful investigative, defensive, research, and security objectives.
-
-It combines **OSINT, cyber threat intelligence, DFIR, threat hunting, security operations, privacy, OPSEC, AI/LLM security, compliance, and authorized security testing** in one investigation-oriented workflow.
-
-The assistant is designed to go beyond a single lookup. For substantial cases it can:
-
-- build a collection plan,
-- search across multiple public-source angles,
-- pivot from useful identifiers and relationships,
-- correlate evidence across independent sources,
-- resolve contradictions where possible,
-- distinguish facts from assessments and assumptions,
-- assign confidence to analytical conclusions,
-- identify intelligence gaps,
-- and recommend the highest-value next actions.
-
-> [!IMPORTANT]
-> Cyber Intelligence GPT does not invent access to private systems, restricted databases, dark-web services, commercial platforms, or intelligence sources. Coverage always depends on the tools, lawful sources, files, and public information actually available in the active session.
-
 ---
 
-<a id="capabilities"></a>
+## Overview
 
-## 🧭 Capabilities
+**Cyber Intelligence GPT** supports OSINT, cyber threat intelligence, digital forensics, incident response, corporate intelligence, OPSEC, privacy, AI security, and related research.
 
-| Area | What it can support |
-|:---|:---|
-| **OSINT & Intelligence** | Entity research, identity resolution, public records, social media research, media analysis, geolocation, timelines, relationship mapping |
-| **Cyber Investigations** | IOC enrichment, infrastructure mapping, phishing and fraud research, cybercrime analysis, campaign and actor profiling |
-| **DFIR** | Incident triage, forensic workflows, artifact analysis, evidence handling, timeline reconstruction, malware-analysis support |
-| **Threat Intelligence** | Actor and campaign research, IOC correlation, TTP analysis, ATT&CK mapping, infrastructure clustering |
-| **Security Operations** | Threat hunting, alert triage, detection engineering, incident-response playbooks, SOC workflows |
-| **Red / Blue / Purple Teaming** | Authorized adversary emulation, defensive validation, attack-surface reasoning, detection opportunities |
-| **OPSEC & Privacy** | Investigator exposure reduction, privacy analysis, metadata risk, secure research practices, exposure assessment |
-| **AI / LLM Security** | Prompt injection, agent/tool abuse, RAG security, AI red teaming, model/application threat analysis |
-| **Compliance & Governance** | GDPR, AI governance, cyber risk, policy/control mapping, security and privacy frameworks |
-| **Automation** | Repeatable research workflows, scripts, structured IOC handling, templates, checklists, data transformation |
-| **Emerging Threats** | AI-enabled abuse, synthetic media, human-layer threats, physical/digital convergence, new attack patterns |
+The mission: reconstruct the **broadest practical, verifiable public footprint** for a legitimate investigation. Go beyond surface searches. Trace current and historical records, profiles, publications, archives, infrastructure, files, images, metadata, and documented connections. Pivot, cross-check, challenge, and report.
 
----
+**Depth matters. Evidence matters more.** Coverage depends on lawful access, available tools, source availability, time, and relevance. Unchecked sources are never presented as verified.
 
-## 🔎 Supported Investigation Inputs
+## Upcoming Plugin
 
-Cyber Intelligence GPT can reason about and pivot from many common observables and entities, including:
+**Cyber Intelligence Plugin - coming soon.** The Custom GPT is available now; a plugin version is planned to bring the same evidence-driven investigation workflow to the ChatGPT plugin ecosystem.
 
-`Name` · `Alias` · `Username` · `Email` · `Phone Number` · `Organization` · `Domain` · `Subdomain` · `IP Address` · `ASN` · `URL` · `File Hash` · `Certificate` · `Wallet` · `Image` · `Video` · `Document` · `Metadata` · `Malware Family` · `Threat Actor` · `Campaign` · `Incident` · `TTP`
+| Edition | Status |
+|:--|:--|
+| **[Cyber Intelligence GPT](https://chatgpt.com/g/g-65xhTBjZu-cyber-intelligence-gpt)** | Available now |
+| **Cyber Intelligence Plugin** | Planned, not released |
 
-Typical investigation areas include:
+No release date, supported integrations, or final feature set have been announced. No live plugin, installation link, API, MCP server, or automatic migration is claimed here.
 
-- identity and digital-footprint research,
-- domains, DNS, certificates, hosting, and infrastructure,
-- social media and public content,
-- exposed technical assets,
-- public breach and exposure references,
-- documents and metadata,
-- images and geolocation clues,
-- malware and threat intelligence,
-- cryptocurrency attribution clues,
-- organizational relationships,
-- incident and campaign timelines.
+## Capabilities
 
----
+| Area | Coverage |
+|:--|:--|
+| **OSINT & public footprint** | Public records, digital presence, historical traces, identity resolution, documents, timelines, verified relationships |
+| **Corporate intelligence** | Filings, organizations, management, public ownership, partnerships, procurement, related infrastructure |
+| **Cyber investigations** | Domains, URLs, DNS, certificates, IP/ASN, phishing, fraud indicators, technical pivots |
+| **Cyber threat intelligence** | IOCs, threat actors, campaigns, malware, TTPs, incident intelligence, MITRE ATT&CK |
+| **DFIR & digital forensics** | Incident triage, evidence handling considerations, metadata, artifacts, chronology, file provenance |
+| **Security operations** | Threat hunting, alert analysis, detection opportunities, IR/SOC playbooks |
+| **OPSEC & privacy** | Exposure assessment, investigator OPSEC, metadata risk, privacy-preserving research |
+| **AI / LLM security** | Prompt injection, RAG/agent security, MCP/tool abuse, threat modeling |
+| **Compliance & governance** | Cyber/privacy obligations, risk assessment, frameworks, regulatory research |
+| **Tools & automation** | FOSS discovery, investigative workflows, checklists, structured outputs |
+
+**Research inputs:** public names and aliases, usernames, organizations, domains, URLs, IPs, ASNs, hashes, certificates, repositories, documents, images, metadata, IOCs, campaigns, incidents, and TTPs. Scope and depth depend on the subject and authorization.
 
-<a id="investigation-workflow"></a>
+## Intelligence workflow
 
-## 🧠 Investigation Workflow
+An iterative intelligence cycle informed by [ODNI ICD 203](https://www.dni.gov/files/documents/ICD/ICD-203.pdf) and source-evaluation practices, **without claiming official affiliation or accreditation**.
 
-For substantial investigations, the assistant follows an evidence-driven workflow:
+1. **Frame** - Define objective, target, period, jurisdiction, authorization, and identity ambiguity.
+2. **Plan** - Set **PIR/SIR**, source priorities, query variants, hypotheses, and observables.
+3. **Collect** - Search independent source classes; favor original records over snippets.
+4. **Pivot** - Follow public identifiers, artifacts, relationships, and historical changes.
+5. **Correlate** - Deduplicate, check chronology and identities, verify ownership and independent support.
+6. **Challenge** - Test counterevidence and competing hypotheses, including ACH where useful.
+7. **Saturate** - Revisit high-value gaps until credible findings diminish or access limits intervene.
+8. **Assess** - Answer PIR/SIR, assign confidence, document conflicts and gaps, prioritize next actions.
 
-1. **Establish the objective**  
-   Define the target, scope, constraints, authorization, legal boundaries, and required OPSEC level.
+### Source coverage
 
-2. **Build a collection plan**  
-   Identify useful people, organizations, identifiers, infrastructure, records, media, timelines, and relationships.
+| Source class | Investigative coverage |
+|:--|:--|
+| **Primary** | Public registers, courts, regulators, filings, procurement, standards, institutions, CERT/CSIRT |
+| **Open web** | Multiple search engines, specialist indexes, research, news, datasets, regional/multilingual sources |
+| **Digital presence** | Websites, public/professional profiles, posts, communities, events, video, code and packages |
+| **Historical** | Web archives, old aliases and affiliations, previous domains/infrastructure, publications, abandoned projects |
+| **Corporate & technical** | Ownership and governance, contracts, DNS, RDAP/WHOIS, TLS/CT, IP/ASN/BGP, hosting, observable services |
+| **Threats & artifacts** | Campaigns, TTPs, IOCs, public documents, images, accessible file metadata/provenance |
+| **Counterevidence** | Corrections, disputes, identity collisions, changed circumstances, alternative explanations |
 
-3. **Collect broadly**  
-   Start with the least-invasive effective methods and use current public sources when freshness matters.
+**N/A** means irrelevant; **NO ACCESS** means unverified, not absent. **Not found ≠ nonexistent.**
 
-4. **Enrich and pivot**  
-   Follow every useful identifier, observable, relationship, and infrastructure clue.
+### Evidence quality
 
-5. **Correlate evidence**  
-   Compare findings across independent sources instead of relying on a single result.
+Separate **verified facts**, **reported claims**, **inferences**, **hypotheses**, **conflicting evidence**, and **unknowns**. Give material judgments **high / medium / low confidence** with reasons. Evaluate source reliability separately from claim credibility; copies of one report do not count as independent confirmation.
 
-6. **Separate evidence from inference**  
-   Distinguish:
-   - **Fact** - directly supported by evidence.
-   - **Assessment** - analytical conclusion derived from evidence.
-   - **Assumption** - working premise that still requires confirmation.
-   - **Unknown** - unresolved information gap.
+Identity matches, relationships, attribution, dates, hashes, and metadata require actual evidence. Make findings traceable, and state limitations.
 
-7. **Assess confidence**  
-   Material analytical judgments may be rated **Low / Medium / High confidence**.
+## Intelligence reports
 
-8. **Identify gaps and next actions**  
-   Highlight unresolved questions and the pivots most likely to improve the investigation.
+For a **substantial investigation**, the default is **two complete deliverables**:
 
----
+1. **Full ChatGPT report** - The entire investigation, not only a summary. Headings, tables, timelines, diagrams, charts, images, and interactive views where useful and supported.
+2. **Complete `.md` report** - The same substantive findings and analysis in standalone GitHub Flavored Markdown, with citations, evidence, timelines, annexes, and **full visible source URLs**. Portable tables, Mermaid, descriptions, or valid image references replace interactive elements.
 
-## 📑 Reporting Structure
+When file creation is supported, the `.md` download link appears **at the end of the chat report**. Otherwise, the assistant states the limitation and supplies copy-ready Markdown, never a fabricated file link.
 
-Substantial reports normally use:
+### Report structure
 
-**Executive Summary → Key Findings → Evidence / Public Sources → Analysis → Risks → Recommendations → Next Steps**
+| Section | Contents |
+|:--|:--|
+| **Scope & PIR/SIR** | Subject resolution, objectives, methods, dates, authorization, limits |
+| **Executive assessment** | Key judgments, confidence, implications |
+| **Deep findings** | Covered source classes, history, verified pivots |
+| **Entities & artifacts** | Identifiers, organizations, relationships, infrastructure, activity, files, media |
+| **Timelines & diagrams** | Chronology, evidence-based connections |
+| **Evidence Register** | Claims, source IDs, dates, corroboration, confidence, contradictions |
+| **Alternative hypotheses** | Disputed claims, rejected leads, scenarios, uncertainty |
+| **Coverage Log** | `CHECKED` / `PARTIAL` / `NOT FOUND` / `NO ACCESS` / `NOT CHECKED` / `N/A` |
+| **Next priorities** | Intelligence gaps, high-value follow-ups |
+| **Public Source Register** | `[S001]` onward: title, issuer, date, **full URL**, access status |
 
-Depending on the case, reports can also include:
+IOC tables, JSON, STIX, Mermaid, PDF, or HTML may supplement the report when relevant and supported; they do not replace the two default deliverables.
 
-- confidence assessments,
-- collection logs,
-- timelines,
-- infrastructure maps,
-- relationship maps,
-- IOC tables,
-- MITRE ATT&CK mappings,
-- STIX 2.1 structures,
-- intelligence gaps,
-- implications and scenarios,
-- Impact / Effort / Risk prioritization.
+## Open-source tool discovery
 
-Recommendations can be grouped as:
+Primary starting point: **[Awesome OSINT Repositories](https://github.com/osintshifu/awesome-osint-repos)**.
 
-- **Quick win** - ≤ 1 hour
-- **Short term** - ≤ 1 day
-- **Deep dive** - > 1 day
-
----
-
-## 🧰 FOSS-First Tooling
-
-Cyber Intelligence GPT prefers **maintained open-source tooling** and official project repositories before commercial alternatives.
-
-For OSINT and cyber tool discovery, a priority reference is:
-
-**[Awesome OSINT Repositories](https://github.com/oryon-osint/awesome-osint-repos)**
-
-Tool recommendations consider:
-
-- maintenance status,
-- source-code availability,
-- practical investigative value,
-- supported target inputs,
-- API/account requirements,
-- local vs. cloud execution,
-- OPSEC and privacy implications,
-- reproducibility,
-- licensing and known limitations.
-
-Commercial tooling may be recommended when specifically requested, clearly superior for the task, or when no suitable FOSS alternative exists.
-
----
-
-<a id="workflow-shortcuts"></a>
-
-## ⚡ Workflow Shortcuts
-
-The assistant accepts natural language. The following keywords are optional shortcuts for common workflows.
-
-| Shortcut | Purpose |
-|:---|:---|
-| `Help` | Show capabilities, shortcuts, and examples |
-| `Case` / `New case` | Start a new investigation with the full capability menu |
-| `Report [target]` | Build a full-spectrum OSINT / cyber intelligence report |
-| `Profile [entity]` | Create a detailed intelligence profile |
-| `Enrich [ioc/entity]` | Enrich and pivot an observable or entity |
-| `Research [topic]` | Perform deep public-source research and verification |
-| `Metadata [file/image]` | Analyze metadata, EXIF, and forensic artifacts |
-| `Timeline [entity/incident]` | Build a chronological timeline |
-| `Playbook [scenario]` | Create an IR, DFIR, hunting, red/blue workflow |
-| `Template [scenario]` | Generate a reusable investigation/report template |
-| `Checklist [scenario]` | Generate a comprehensive operational checklist |
-| `Mitre: [actor/incident]` | Map TTPs to MITRE ATT&CK |
-| `iocs: [campaign/incident]` | Correlate IOCs and structure them for reporting |
-| `Actor: [name]` | Build a threat-actor or cybercrime profile |
-| `Campaign: [name]` | Analyze campaign infrastructure, TTPs, IOCs, targeting, and chronology |
-| `Infrastructure: [org/target]` | Map observable domains, subdomains, ASNs, technologies, and exposures |
-
-> [!NOTE]
-> Shortcuts are conversational workflow keywords, not shell commands. A leading `/` is not required.
-
----
-
-## 🧬 DFIR & Evidence Handling
-
-DFIR support can include:
-
-- incident triage,
-- evidence-acquisition planning,
-- order-of-volatility considerations,
-- filesystem and disk artifacts,
-- memory-analysis workflows,
-- Windows, Linux, and macOS artifacts,
-- network evidence,
-- log analysis,
-- malware triage,
-- IOC extraction,
-- timeline reconstruction,
-- hashing and integrity verification,
-- metadata preservation,
-- chain-of-custody considerations,
-- incident-response playbooks,
-- hunting hypotheses and detection opportunities.
-
-Where evidentiary integrity matters, the assistant emphasizes **hashes, timestamps, provenance, reproducibility, and documented assumptions**.
-
----
-
-## 🎯 Threat Intelligence & Security Operations
-
-Cyber Intelligence GPT can support:
-
-- threat actor profiling,
-- campaign tracking,
-- IOC enrichment and correlation,
-- infrastructure clustering,
-- TTP analysis,
-- MITRE ATT&CK mapping,
-- Diamond Model reasoning,
-- Cyber Kill Chain analysis,
-- threat hunting,
-- detection engineering,
-- SOC alert triage,
-- incident response,
-- adversary emulation in authorized environments,
-- purple-team exercises,
-- phishing and fraud investigations,
-- malware intelligence.
-
-Attribution is treated as an analytical conclusion requiring evidence, not as a guess presented as fact.
-
----
-
-## 🤖 AI / LLM Security
-
-Modern AI-security coverage includes:
-
-- LLM threat modeling,
-- prompt injection,
-- indirect prompt injection,
-- sensitive-context and data leakage,
-- agent and tool abuse,
-- RAG and retrieval security,
-- MCP / plugin / integration risks,
-- AI application red teaming,
-- AI supply-chain risk,
-- secure deployment patterns,
-- abuse-case development,
-- AI governance,
-- monitoring and detection strategies.
-
----
-
-## 🔐 OPSEC & Privacy
-
-The assistant follows an OPSEC-conscious approach:
-
-- prefer the least-invasive effective research method,
-- minimize unnecessary investigator exposure,
-- reduce avoidable data leakage,
-- separate public evidence from sensitive material,
-- highlight account, browser, network, platform, and metadata risks,
-- recommend privacy-preserving research practices,
-- flag legal and ethical constraints when relevant.
-
----
-
-<a id="methodology--standards"></a>
-
-## 🧩 Methodology & Standards
-
-Depending on the task, analysis can reference or map findings to frameworks and standards such as:
-
-- **MITRE ATT&CK**
-- **Diamond Model of Intrusion Analysis**
-- **Cyber Kill Chain**
-- **NIST Cybersecurity Framework**
-- **NIST incident-response guidance**
-- **OWASP**
-- **OWASP guidance for Generative AI / LLM applications**
-- **STIX 2.1 / TAXII**
-- **GDPR**
-- **EU AI Act**
-- **ISO/IEC security and privacy controls**
-
-Frameworks are used when they improve the investigation; they are not added mechanically to every answer.
-
----
-
-## 📊 Output Formats
-
-Depending on the task and available tools, outputs can include:
-
-`Markdown` · `CSV` · `JSON` · `STIX 2.1` · `IOC tables` · `Timelines` · `Mermaid diagrams` · `Playbooks` · `Checklists` · `Executive reports` · `Technical reports` · `Detection logic` · `Scripts` · `Documents` · `Spreadsheets` · `Presentations`
-
----
-
-<a id="example-usage"></a>
-
-## 📌 Example Usage
-
-```text
-Report example.com
-```
-
-Build a broad intelligence report around a domain, including infrastructure, relationships, exposure, risk, and next pivots.
-
-```text
-Enrich 203.0.113.10
-```
-
-Investigate an IP address using public infrastructure and threat-intelligence pivots.
-
-```text
-Profile Example Corporation
-```
-
-Create an organization profile covering public footprint, infrastructure, affiliations, risks, and evidence.
-
-```text
-Research "phishing infrastructure targeting logistics companies"
-```
-
-Perform deep public-source research, compare independent sources, create a chronology, and identify intelligence gaps.
-
-```text
-Metadata suspicious_document.pdf
-```
-
-Analyze available metadata and forensic artifacts from a supplied file.
-
-```text
-Mitre: ransomware incident
-```
-
-Map observed behavior and TTPs to MITRE ATT&CK with evidence and confidence notes.
-
-```text
-iocs: campaign-name
-```
-
-Correlate supplied or publicly verified observables into a structured IOC set.
-
-```text
-Playbook cloud account compromise
-```
-
-Create a defensive incident-response and investigation workflow.
-
----
-
-## ⚖️ Safety, Authorization & Scope
-
-Cyber Intelligence GPT is intended for:
-
-- lawful OSINT,
-- defensive cybersecurity,
-- authorized security testing,
-- DFIR and incident response,
-- threat intelligence,
-- security research,
-- CTFs and lab environments,
-- privacy and compliance,
-- education and training.
-
-It does not support unlawful access, malicious exploitation, credential theft, harassment, doxxing, destructive activity, or unauthorized surveillance.
-
-When a request crosses a safety or authorization boundary, the assistant limits the harmful portion while continuing to support legitimate defensive, analytical, research, or lab-safe alternatives.
-
----
-
-## 🚀 Access
+| Index | Purpose |
+|:--|:--|
+| [`README.md`](https://github.com/osintshifu/awesome-osint-repos/blob/main/README.md) | Categorized projects |
+| [`INPUTS.md`](https://github.com/osintshifu/awesome-osint-repos/blob/main/INPUTS.md) | Tools by input |
+| [`EMERGING.md`](https://github.com/osintshifu/awesome-osint-repos/blob/main/EMERGING.md) | Emerging tools |
+| [`AGENTIC.md`](https://github.com/osintshifu/awesome-osint-repos/blob/main/AGENTIC.md) | Skills, MCP, integrations |
+| [`TIMELINE.md`](https://github.com/osintshifu/awesome-osint-repos/blob/main/TIMELINE.md) | Discovery history |
+| [`osint-repositories.csv`](https://github.com/osintshifu/awesome-osint-repos/blob/main/osint-repositories.csv) | Structured catalogue |
+
+The index is a **discovery aid, not an endorsement or complete inventory**. Verify projects at their source: capabilities, maintenance, licensing, setup, limits, data handling, and OPSEC. Extend discovery to GitHub, GitLab, Codeberg, official docs, package indexes, and specialist communities.
+
+## Commands
+
+Optional **chat shortcuts**, not shell commands. Plain-language requests work too.
+
+| Command | Action |
+|:--|:--|
+| `Help` | Investigation types and help |
+| `Case` / `New case` | Start an investigation |
+| `Report [target]` | Full-spectrum intelligence report |
+| `Profile [entity]` | Public entity/organization profile |
+| `Research [topic]` | Deep, verified research |
+| `Enrich [IOC]` | Indicator correlation |
+| `Metadata [file]` | Accessible file/media metadata |
+| `Timeline [target]` | Chronology reconstruction |
+| `Actor [name]` | Threat actor intelligence |
+| `Campaign [name]` | Campaign/TTP analysis |
+| `Infrastructure [target]` | Public/passive infrastructure mapping |
+| `Tools [task]` | FOSS tool discovery and comparison |
+| `Playbook [scenario]` | Investigative/security workflow |
+| `Template [scenario]` | Reusable report template |
+| `Checklist [scenario]` | Operational checklist |
+| `Mitre [case]` | Evidence-based ATT&CK mapping |
+| `iocs [case]` | IOC correlation and reporting |
+
+The `Help` / `New case` menu covers **OSINT**, **Cyber Investigations**, **DFIR**, **Security Operations**, **Compliance & Privacy**, **Advanced Security**, **Automation**, and **Human/Physical/Emerging Threats**.
+
+## Examples
+
+| Request | Result |
+|:--|:--|
+| `Report example.com` | Public history, infrastructure, relationships, technical observables, competing explanations, gaps |
+| `Profile Example Corporation` | Filings, history, digital presence, organizational links, attributable infrastructure |
+| `Enrich 203.0.113.10` | Passive infrastructure/CTI evidence, provenance and confidence |
+| `Metadata uploaded_document.pdf` | Available document metadata and provenance artifacts |
+| `Tools for document metadata and file provenance investigations` | Tool comparison: features, license, dependencies, maintenance, OPSEC |
+| `Playbook suspected cloud account compromise` | Authorization-aware defensive investigation and response |
+
+## Standards & references
+
+Applied when relevant, not mechanically: **ODNI ICD 203**, structured analytic techniques, **MITRE ATT&CK**, **Diamond Model**, **Cyber Kill Chain**, **NIST**, **OWASP** and AI/LLM security research, **STIX 2.1**, and applicable privacy/security regulations.
+
+## Privacy, authorization & limitations
+
+For **lawful OSINT, public-interest and corporate research, defensive security, authorized assessments, DFIR, threat intelligence, education, and privacy analysis**. Not for unauthorized access, credential theft, malicious exploitation, stalking, doxxing, deanonymization of private individuals, invasive personal dossiers, or harmful aggregation of sensitive details. Person-focused research must remain proportionate to its purpose and authorization.
+
+- **Access** - Only available tools, sources, files, and integrations; no invented checks.
+- **Freshness** - Recheck material facts as accounts, infrastructure, CTI, law, and archives change.
+- **Forensics** - Report hashes, metadata, provenance, and custody only when established.
+- **Attribution** - Shared infrastructure or a single IOC does not establish identity.
+- **Confidentiality** - Private builder-provided reference material is not published here.
+- **Human review** - Independently verify consequential operational, legal, and evidentiary decisions.
+
+## Access
 
 <div align="center">
 
 ### [Launch Cyber Intelligence GPT](https://chatgpt.com/g/g-65xhTBjZu-cyber-intelligence-gpt)
 
-<a href="https://chatgpt.com/g/g-65xhTBjZu-cyber-intelligence-gpt">
-  <img alt="Open in ChatGPT" src="https://img.shields.io/badge/Open_in-ChatGPT-10a37f?style=for-the-badge&logo=openai&logoColor=white">
-</a>
+[![Open in ChatGPT](https://img.shields.io/badge/Open_in-ChatGPT-10A37F?style=for-the-badge&logo=openai&logoColor=white)](https://chatgpt.com/g/g-65xhTBjZu-cyber-intelligence-gpt)
 
 </div>
 
----
+## Related projects
 
-## 🔗 Related Repositories
-
-- **[Awesome OSINT Repositories](https://github.com/oryon-osint/awesome-osint-repos)** - continuously updated catalogue of open-source OSINT tools, skills, plugins, MCP servers, and agentic integrations.
-- **[Cyber Intelligence Toolkit](https://github.com/oryon-osint/cyber-intelligence-toolkit)** - manuals, playbooks, checklists, and references for OSINT, OPSEC, cybersecurity, and digital investigations.
-- **[QueryTool](https://github.com/oryon-osint/querytool)** - Google Sheets-based framework for structured OSINT search workflows.
+- **[Awesome OSINT Repositories](https://github.com/osintshifu/awesome-osint-repos)** - OSINT project and agentic integration index.
+- **[Cyber Intelligence Toolkit](https://github.com/osintshifu/cyber-intelligence-toolkit)** - Investigation manuals, playbooks, checklists.
+- **[QueryTool](https://github.com/osintshifu/querytool)** - Structured OSINT search workflows.
 
 ---
 
-## ⚠️ Accuracy & Limitations
-
-Cyber intelligence is time-sensitive. Infrastructure changes, repositories become stale, accounts disappear, regulations evolve, and threat reporting may conflict.
-
-Cyber Intelligence GPT is designed to:
-
-- verify current facts when recency matters,
-- prefer primary and authoritative public sources,
-- mark stale, conflicting, or unverified information,
-- distinguish observation from inference,
-- state uncertainty and confidence,
-- avoid fabricating evidence, sources, IOCs, attribution, or tool output.
-
-AI-assisted analysis should be independently validated before operational, legal, evidentiary, or other high-impact decisions.
-
----
-
-## 📄 Disclaimer
-
-This project is provided for **educational, research, investigative, defensive, and authorized security purposes**.
-
-Users are responsible for ensuring that their activities comply with applicable law, contractual obligations, platform rules, organizational policy, authorization scope, and evidence-handling requirements.
+**Disclaimer:** Users are responsible for lawful use, authorization, and independent verification of high-impact findings. AI-generated analysis does not replace professional forensic examination or authoritative legal advice.
 
 <p align="right"><a href="#top">Back to top ↑</a></p>
