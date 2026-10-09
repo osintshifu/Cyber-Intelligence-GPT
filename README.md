@@ -115,6 +115,10 @@ When file creation is supported, the `.md` download link appears **at the end of
 
 IOC tables, JSON, STIX, Mermaid, PDF, or HTML may supplement the report when relevant and supported; they do not replace the two default deliverables.
 
+## Investigation Prompts
+
+Reusable investigation prompts are maintained in **[OSINT Tradecraft / prompts](https://github.com/osintshifu/osint-tradecraft/tree/main/prompts)**.
+
 ## Open-source tool discovery
 
 Primary starting point: **[Awesome OSINT Repositories](https://github.com/osintshifu/awesome-osint-repos)**.
@@ -195,7 +199,7 @@ For **lawful OSINT, public-interest and corporate research, defensive security, 
 ## Related projects
 
 - **[Awesome OSINT Repositories](https://github.com/osintshifu/awesome-osint-repos)** - OSINT project and agentic integration index.
-- **[Cyber Intelligence Toolkit](https://github.com/osintshifu/cyber-intelligence-toolkit)** - Investigation manuals, playbooks, checklists.
+- **[OSINT Tradecraft](https://github.com/osintshifu/osint-tradecraft)** - Investigation manuals, checklists, and reusable prompts.
 - **[QueryTool](https://github.com/osintshifu/querytool)** - Structured OSINT search workflows.
 
 ---
