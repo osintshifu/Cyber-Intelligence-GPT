@@ -1,4 +1,4 @@
-# MASTER PROMPT V4.0 — ADAPTIVE FULL-SPECTRUM OSINT INTELLIGENCE
+# Person OSINT Deep Research Prompt
 
 **Maximum-Depth Open-Source Reconnaissance of Public Professional Activity, Organizations, Companies, Projects, and Verifiable Relationships**
 
