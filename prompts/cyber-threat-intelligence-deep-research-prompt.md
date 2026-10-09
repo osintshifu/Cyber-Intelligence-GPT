@@ -1,4 +1,4 @@
-# Full-Spectrum Cyber Threat Intelligence Prompt
+# Cyber Threat Intelligence Deep Research Prompt
 
 Deep Research · Threat Actor & Campaign Intelligence · Malware & Infrastructure Analysis · IOC Correlation · Historical Research · Attribution · Threat Hunting · Detection Engineering · Evidence-Based Reporting
 
